@@ -54,6 +54,7 @@ ul span {
 table {
   width: 100%;
   font-size: larger;
+  border: 0em;
 }
 th {
   color: white;
@@ -61,11 +62,16 @@ th {
 }
 td {
   border-collapse: collapse;
+  border: 0em;
 }
 tr:nth-child(2n + 1) {
   background-color: #eee;
   border-top: solid;
   border-bottom: solid;
+  border-spacing: 0;
+}
+tr:nth-child(2n + 1) td {
+  border-color: #eee;
 }
 th {
   background-color: #4968bb;
